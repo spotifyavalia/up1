@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Usando Poppins */
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.social-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.google {
+    background-color: #4285F4;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.apple {
+    background-color: #333;
+}
+
+.phone {
+    background-color: #333;
+}
+
+.divider {
+    border: 0.5px solid #333;
+    margin: 20px 0;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #282828;
+    color: #fff;
+    font-size: 14px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #b3b3b3;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 20px 0;
+    color: #b3b3b3;
+    font-size: 12px;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+p a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 10px;
+    margin-top: 20px;
+}
